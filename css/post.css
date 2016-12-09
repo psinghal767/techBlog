@@ -16,6 +16,7 @@ body{
 	
 	padding-top:20px;
 	width: 750px;
+	max-width: 90%;
 	//border-left: 20px solid rgb(237,237,237);
 	//border-right: 20px solid rgb(237,237,237);
 	background-color: white;
@@ -24,6 +25,7 @@ body{
 #header{
 	height: 100px;
 	width:750px;
+	max-width: 90%;
 	padding-top:20px;
 	position: relative;
 }
@@ -92,13 +94,24 @@ body{
 	
 }
 #content{
+	
 	position: relative;
 	clear:both;
 	margin-top: 15px;
+	display: -webkit-box;
+  	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+  
 }
 #left{
-	float:left;
-	width:520px;
+	//float:left;
+	max-width:520px;
+	min-width: 250px;
+	
+	
 }
 
 .full_content{
@@ -163,8 +176,10 @@ body{
 
 
 #right{
-	float:left;
+	
 	width: 230px;
+
+	
 	
 }
 .right_box{
@@ -210,6 +225,7 @@ form input[type="submit"]{
 	text-align: center;
 	clear: both;
 	position: relative;
+	
 }
 #footer ul{
 	list-style: none;

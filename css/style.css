@@ -16,6 +16,7 @@ body{
 	
 	padding-top:20px;
 	width: 750px;
+	max-width: 90%;
 	//border-left: 20px solid rgb(237,237,237);
 	//border-right: 20px solid rgb(237,237,237);
 	background-color: white;
@@ -24,6 +25,7 @@ body{
 #header{
 	height: 100px;
 	width:750px;
+	max-width: 90%;
 	padding-top:20px;
 	position: relative;
 }
@@ -74,6 +76,7 @@ body{
 	left:0px;
 	width:170px;
 	height: 100px;
+
 }
 #header span{
 	
@@ -101,16 +104,24 @@ body{
 #header2 img{
 	width:750px;
 	height:300px;
+	max-width:100%;
 
 }
 #content{
 	position: relative;
 	clear:both;
 	margin-top: 15px;
+	display: -webkit-box;
+  	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
 }
 #left{
-	float:left;
-	width:520px;
+	//float:left;
+	max-width:520px;
+	min-width: 250px;
 }
 .posts{
 	padding:20px;
@@ -216,7 +227,7 @@ body{
 
 
 #right{
-	float:left;
+	
 	width: 230px;
 	
 }
