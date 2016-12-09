@@ -37,6 +37,28 @@ body{
     border: none;
     cursor: pointer;
 }
+@media (max-width: 450px) {
+		.menubtn{
+			margin-left: 5px;
+			font-size: 3vw;
+			padding:3vw;
+		}
+
+		#header img {
+			
+			
+			position: relative !important;
+			display: block !important;
+			width: 100px !important;
+			height:70px !important;
+		}
+		#header span{
+			position: relative !important;
+			display: table !important;
+			margin: 0 auto !important;
+		}
+
+	}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -120,6 +142,7 @@ body{
 }
 #left{
 	//float:left;
+
 	max-width:520px;
 	min-width: 250px;
 }
@@ -127,6 +150,7 @@ body{
 	padding:20px;
 	padding-bottom: 40px;
 	position: relative;
+	clear:both;
 	//border-bottom:2px solid black;
 	margin-right: 15px;
 
@@ -227,7 +251,7 @@ body{
 
 
 #right{
-	
+	margin-top: 15px;
 	width: 230px;
 	
 }

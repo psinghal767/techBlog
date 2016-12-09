@@ -37,6 +37,28 @@ body{
     border: none;
     cursor: pointer;
 }
+@media (max-width: 450px) {
+		.menubtn{
+			margin-left: 5px;
+			font-size: 3vw;
+			padding:3vw;
+		}
+
+		#header img {
+			
+			
+			position: relative !important;
+			display: block !important;
+			width: 100px !important;
+			height:70px !important;
+		}
+		#header span{
+			position: relative !important;
+			display: table !important;
+			margin: 0 auto !important;
+		}
+
+	}
 .dropdown {
     position: relative;
     display: inline-block;
