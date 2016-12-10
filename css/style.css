@@ -8,7 +8,9 @@ body{
 	background-color: rgb(237,237,237);
 }
 #wrapper{
-	border:25px solid rgb(237,237,237);
+	border-right:25px solid rgb(237,237,237);
+	border-left:25px solid rgb(237,237,237);
+	border-top:10px solid rgb(237,237,237);
 	border-bottom: 0px;
 	background: white;
 }
@@ -124,8 +126,8 @@ body{
 }
 
 #header2 img{
-	width:750px;
-	height:300px;
+	width:100%;
+	height:auto;
 	max-width:100%;
 
 }
