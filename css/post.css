@@ -166,7 +166,9 @@ body{
 	
 }
 
+
 .tags li{
+	float:right;
 	display:inline;
 	list-style:none;
 	

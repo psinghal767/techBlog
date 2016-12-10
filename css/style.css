@@ -178,6 +178,7 @@ body{
 }
 
 .tags li{
+	float: right;
 	display:inline;
 	list-style:none;
 	
@@ -248,7 +249,16 @@ body{
 	top:1px;
 }
 
+@media (max-width: 450px) {
 
+	.read_more{
+		font-size: 10px;
+	}
+	.tags li{
+		font-size: 8px;
+	}
+
+}
 
 #right{
 	margin-top: 15px;
