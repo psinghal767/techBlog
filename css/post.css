@@ -222,7 +222,7 @@ body{
 	margin-bottom: 15px;
 }
 form input[type="email"]{
-	
+	width: 150px;
 	padding: 5px;
 	border:0px;
 }
