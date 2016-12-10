@@ -142,7 +142,11 @@ body{
 	margin-right: 15px;
 	position: relative;
 }
-
+@media(max-width: 450px){
+	.full_content{
+		padding:0px;
+	}
+}
 .full_content h3{
 	font-family: 'Vollkorn', serif;
 	font-size: 30px;

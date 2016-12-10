@@ -156,6 +156,13 @@ body{
 
 
 }
+@media (max-width: 450px){
+
+	.posts{
+		padding: 0px;
+	}
+}
+
 .posts h3{
 
 	font-family: 'Vollkorn', serif;
